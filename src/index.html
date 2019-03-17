@@ -1,14 +1,281 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Cv</title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>CV -- Zied Guellim</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <app-root></app-root>
+<div class="container-fluid">
+  <!------------- header -------------->
+  <div clas="row">
+    <div class="page-header clearfix">
+      <div class="pull-left col-xs-6">
+        <h1>Zied Guellim</h1>
+        <h4 class="help-block">Ingénieur Logiciel</h4>
+      </div>
+      <div class="pull-right text-right col-xs-6">
+        <span class="spacer glyphicon glyphicon-envelope"></span>contact@zg.tn<br>
+        <span class="spacer glyphicon glyphicon-earphone"></span>+33615284756<br>
+        <span class="spacer glyphicon glyphicon-map-marker"></span>92120, France<br>
+        <span class="spacer glyphicon glyphicon-user"></span>Tunisien, Marié<br>
+        <span class="spacer glyphicon glyphicon-flag"></span>Arabe, Français
+      </div>
+    </div>
+  </div>
+  <!---------------------------------->
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <!-- Situation actuelle -->
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#situations" aria-expanded="false" aria-controls="collapseThree">
+            Situation actuelle
+          </a>
+        </h4>
+      </div>
+      <div id="situations" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          <dl>
+            <dt>Lead Dev chez <a target="_blank" href="http://www.nomosphere.fr">Nomosphere</a></dt>
+            <dd>
+              Conception et développement d'un <var>Hotspot Manager</var><br>
+              <span class="label label-default">Spring</span>
+              <span class="label label-default">MongoDB</span>
+              <span class="label label-default">Symfony</span>
+              <span class="label label-default">MySql</span>
+            </dd>
+          </dl>
+          <!--dl>
+              <dt>Étudiant M1 à <a target="_blank" href="http://www.univ-fcomte.fr">UFC</a></dt>
+              <dd>
+                  Informatique, spécialité <cite title="Informatique Avancée et Applications">I2A</cite>
+              </dd>
+          </dl-->
+        </div>
+      </div>
+    </div>
+    <!-- Formations -->
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#diplomes" aria-expanded="false" aria-controls="collapseThree">
+            Formations
+          </a>
+        </h4>
+      </div>
+      <div id="diplomes" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+            <dt><mark>07/2017</mark></dt>
+            <dd>
+              <strong>Formation Freeradius 3</strong><br>
+              <small>Nomotech</small>
+            </dd>
+          </dl><dl class="dl-horizontal">
+          <dt><mark>11/2016</mark></dt>
+          <dd>
+            <strong>Formation MongoDB Essentials</strong><br>
+            <small>Zenika</small>
+          </dd>
+        </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>2013 => 2015</mark></dt>
+            <dd>
+              <strong>Master 1,</strong> Spécialité Informatique Avancée et Applications.<br>
+              <small>Université Franche-Comté</small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>2013 => 2014</mark></dt>
+            <dd>
+              <strong>Master 2,</strong> Spécialité Langages et Programmation.<br>
+              <small>Université Paris Diderot</small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>2010 => 2013</mark></dt>
+            <dd>
+              <strong>Formation d’Ingénieurs,</strong> Spécialité Génie Logiciel.<br>
+              <small>École Polytechnique - Groupe EPI</small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>2010 => 2012</mark></dt>
+            <dd>
+              <strong>Licence Informatique.</strong><br>
+              <small>Université Franche-Comté</small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>2007 => 2010</mark></dt>
+            <dd>
+              <strong>Licence Appliquée en Informatique,</strong> Technologie des Multimédia et Web.<br>
+              <small>Institut Supérieur des Sciences Appliquées et Technologie de Sousse</small>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- Exprerience professionnelle -->
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#jobs" aria-expanded="false" aria-controls="collapseThree">
+            Expériences professionnelles
+          </a>
+        </h4>
+      </div>
+      <div id="jobs" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          <dl class="dl-horizontal">
+            <dt><mark>04--10/2014</mark></dt>
+            <dd>
+              <strong>Stage de Fin d’étude,</strong> Nomosphere.<br>
+              <small>
+                Développement des portails captifs<br>
+                <span class="label label-default">HTML/CSS/JS</span>
+                <span class="label label-default">PHP</span>
+                <span class="label label-default">Adipsys</span>
+              </small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>03--08/2013</mark></dt>
+            <dd>
+              <strong>Stage de Fin d’étude,</strong> L@RIS.<br>
+              <small>
+                Orchestration et intégration des processus pédagogiques et outils de collaboration dans une architecture orientée services.<br>
+                <span class="label label-default">BPML</span>
+                <span class="label label-default">Intalio</span>
+              </small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>07--10/2012</mark></dt>
+            <dd>
+              <strong>Stage Ingénieur,</strong> Stunas.<br>
+              <small>
+                Conception, développement et installation d’un gestionnaire parc automobile<br>
+                <span class="label label-default">C#</span>
+                <span class="label label-default">ASP.NET</span>
+                <span class="label label-default">SQLServer</span>
+              </small>
+            </dd>
+          </dl>
+          <dl class="dl-horizontal">
+            <dt><mark>03--06/2010</mark></dt>
+            <dd>
+              <strong>Stage Fin d’Etude,</strong> Société Méditerranéenne de Service.<br>
+              <small>
+                Création d’un site web dynamique<br>
+                <span class="label label-default">HTML/CSS/JS</span>
+                <span class="label label-default">PHP</span>
+                <span class="label label-default">MySQL</span>
+              </small>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <!-- competence -->
+    <!--
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#competences" aria-expanded="false" aria-controls="collapseThree">
+                    Compétences
+                </a>
+            </h4>
+        </div>
+        <div id="competences" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <div>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#langue" aria-controls="home" role="tab" data-toggle="tab">Langue</a></li>
+                        <li role="presentation"><a href="#informatique" aria-controls="profile" role="tab" data-toggle="tab">Informatique</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="langue">
+                            <dl class="dl-horizontal">
+                                <dt>Arabe</dt>
+                                <dd>Langue maternelle</dd>
+                                </dl>
+                            <dl class="dl-horizontal">
+                                <dt>Français</dt>
+                                <dd>Bon niveau</dd>
+                            </dl>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="informatique">
+                            <dl class="dl-horiezontal">
+                                <dt>Langage</dt>
+                                <dd>Java, PHP, JavaScript, JSON</dd>
+                            </dl>
+                            <dl class="dl-horiezontal">
+                                <dt>Framework</dt>
+                                <dd>Spring, Symfony, Sails</dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+    <!-- Others -->
+    <div class="panel panel-default">
+      <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title">
+          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#others" aria-expanded="false" aria-controls="collapseThree">
+            Divers
+          </a>
+        </h4>
+      </div>
+      <div id="others" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+          <ul>
+            <li>Permis Français de conduire catégorie B</li>
+            <li>Attestation Tunisienne des Premiers Secours</li>
+            <li>Arbitre national Tunisien de tennis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="footer" class="pull-right">Août 2017</div>
+
+</div>
+
+
+<!-- javascript -->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+  ga('create', 'UA-53896283-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

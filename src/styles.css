@@ -1,1 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
+body {font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;}
+a {color: #00b7ff;}
+.spacer {margin-right: 7px;}
