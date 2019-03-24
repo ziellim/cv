@@ -1,4 +1,10 @@
 mat-card {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+.h-right {
+  text-align: right;
+}
+.fas {
+  margin-right: 3px;
 }
